@@ -1,5 +1,6 @@
 package com.itheima.dao;
 
+import com.itheima.domain.Product;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 

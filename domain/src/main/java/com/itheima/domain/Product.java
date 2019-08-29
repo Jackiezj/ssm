@@ -1,4 +1,4 @@
-package com.itheima.dao;
+package com.itheima.domain;
 
 import com.itheima.utils.DateUtils;
 import org.springframework.format.annotation.DateTimeFormat;

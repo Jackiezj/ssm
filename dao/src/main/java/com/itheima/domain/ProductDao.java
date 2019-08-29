@@ -1,4 +1,4 @@
-package com.itheima.dao;
+package com.itheima.domain;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;

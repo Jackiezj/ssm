@@ -15,7 +15,7 @@
     <!-- 配置 spring 创建容器时要扫描的包 -->
     <!-- 开启注解扫描，管理service和dao -->
     <context:component-scan base-package="com.itheima.service"></context:component-scan>
-    <context:component-scan base-package="com.itheima.domain"></context:component-scan>
+    <context:component-scan base-package="com.itheima.dao"></context:component-scan>
 
     <context:property-placeholder location="classpath:db.properties"/>
     <!-- 配置连接池 -->
@@ -32,7 +32,7 @@
 
     <!-- 扫描dao接口 -->
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.itheima.domain"/>
+        <property name="basePackage" value="com.itheima.dao"/>
     </bean>
 
     <!-- 配置Spring的声明式事务管理 -->

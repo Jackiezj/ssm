@@ -1,6 +1,6 @@
 package com.itheima.controller;
 
-import com.itheima.domain.Product;
+import com.itheima.dao.Product;
 import com.itheima.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

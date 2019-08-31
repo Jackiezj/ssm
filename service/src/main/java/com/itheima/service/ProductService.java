@@ -1,6 +1,6 @@
 package com.itheima.service;
 
-import com.itheima.dao.Product;
+import com.itheima.domain.Product;
 
 import java.util.List;
 

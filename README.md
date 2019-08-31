@@ -127,3 +127,9 @@
     insert into ORDER_TRAVELLER (orderid, travellerid)
     values ('E4DD4C45EED84870ABA83574A801083E', 'EE7A71FB6945483FBF91543DBE851960');
     ```
+    
+- SSM权限操作表设计
+
+    ```sql
+    
+    ```

@@ -1,6 +1,6 @@
 package com.itheima.domain;
 
-public class Traveller {
+public class Travellers {
     private String id;
     private String name;
     private String sex;

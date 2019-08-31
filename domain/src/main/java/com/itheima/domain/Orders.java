@@ -14,7 +14,7 @@ public class Orders {
     private String orderStatusStr;
     private int peopleCount;
     private Product product;
-    private List<Traveller> travellers;
+    private List<Travellers> travellers;
     private Member member;
     private Integer payType;
     private String payTypeStr;
@@ -94,11 +94,11 @@ public class Orders {
         this.product = product;
     }
 
-    public List<Traveller> getTravellers() {
+    public List<Travellers> getTravellers() {
         return travellers;
     }
 
-    public void setTravellers(List<Traveller> travellers) {
+    public void setTravellers(List<Travellers> travellers) {
         this.travellers = travellers;
     }
 

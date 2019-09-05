@@ -31,4 +31,9 @@ public class UserServiceImpl implements UserService {
                 true, true, true, authorities);
         return user;
     }
+
+    @Override
+    public List<UserInfo> findAll() {
+        return userDao.findAll();
+    }
 }

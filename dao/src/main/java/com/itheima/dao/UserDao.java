@@ -21,4 +21,7 @@ public interface UserDao {
                     many = @Many(select = "com.itheima.dao.RoleDao.findRolesByUserId"))
     })
     UserInfo findByUsername(String username);
+
+    @Select("select * from users")
+    List<UserInfo> findAll();
 }

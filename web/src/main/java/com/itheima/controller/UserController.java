@@ -23,4 +23,10 @@ public class UserController {
         mv.addObject("userList", userList);
         return mv;
     }
+
+    @RequestMapping("/save.do")
+    public String save (UserInfo user) throws Exception {
+        userService.save(user);
+        return "redirect:findAll.do";
+    }
 }

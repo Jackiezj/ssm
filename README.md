@@ -173,3 +173,20 @@
     FOREIGN KEY (roleId) REFERENCES role (id)
     );
     ```
+
+## 权限操作
+
+### 用户退出
+
+- 配置
+
+    ```xml
+    <!--spring-security.xml中配置-->
+    <security:logout invalidate-session="true" logout-url="/logout.do" logout-successurl="/login.jsp" />
+    ```
+    
+- 页面配置
+
+    ```html
+    <a href="${pageContext.request.contextPath}/logout.do" class="btn btn-default btn-flat">注销</a>
+    ```
